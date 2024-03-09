@@ -1,14 +1,16 @@
-import './App.css'
+
+import CounterView from "./feature/counter/CounterView"
+
+
 
 function App() {
 
 
   return (
-    <>
-    <div className='bg-red-500'>
-       Adnan
+    <div>
+   <h2>hello app</h2>
+   <CounterView/>
     </div>
-    </>
   )
 }
 
