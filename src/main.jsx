@@ -14,3 +14,4 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 
 // npm install @reduxjs/toolkit
 // npm install react-redux
+// npm i axios

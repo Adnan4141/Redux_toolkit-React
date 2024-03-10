@@ -1,5 +1,7 @@
 
-import CounterView from "./feature/counter/CounterView"
+// import CounterView from "./feature/counter/CounterView"
+import PostVIew from "./feature/posts/PostVIew"
+
 
 
 
@@ -9,7 +11,8 @@ function App() {
   return (
     <div>
    <h2>hello app</h2>
-   <CounterView/>
+   {/* <CounterView/> */}
+  <PostVIew/>
     </div>
   )
 }
