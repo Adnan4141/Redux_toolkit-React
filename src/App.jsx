@@ -1,15 +1,18 @@
-import './App.css'
+import Index from "./routes/Index"
+
 
 function App() {
 
 
   return (
-    <>
-    <div className='bg-red-500'>
-       Adnan
+    <div className="">
+     <Index/>
     </div>
-    </>
   )
 }
 
 export default App
+
+
+// npm install @reduxjs/toolkit react-router-dom react-redux
+// npm install uuid
