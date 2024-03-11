@@ -3,7 +3,9 @@ import { v4 as uuidv4 } from 'uuid';
 const initialBooks = {
     books:[
         {id:uuidv4(),title:"Love Finland",author:"Anisul Islam"},
+        {id:uuidv4(),title:"Modern Technology",author:"Steven Jesson"},
         {id:uuidv4(),title:"Love Bangladesh",author:"Adnan Hossain"},
+        {id:uuidv4(),title:"History of Ema-John",author:"Emajon David "},
     ]
 };
 

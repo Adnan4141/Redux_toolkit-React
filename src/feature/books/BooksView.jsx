@@ -1,6 +1,7 @@
 import { useDispatch, useSelector } from "react-redux";
 import { deleteBook } from "./BooksSlice";
 import { Link } from "react-router-dom";
+import PageTitle from "../../layouts/PageTitle";
 
 
 
@@ -18,7 +19,7 @@ const handleDeleteBook = (id)=>{
     <div className="flex flex-col justify-center items-center px-20">
     <h2 className="text-center font-bold">List of Books</h2>
     <div className=" text-white">
-
+     <PageTitle title={"BooksView"}/>
     <table className="border text-center w-full">
      <thead>
       <tr className="flex justify-between items-center py-1 gap-32 text-center bg-orange-900">

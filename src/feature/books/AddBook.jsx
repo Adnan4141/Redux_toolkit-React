@@ -3,6 +3,7 @@ import { useDispatch, useSelector } from "react-redux"
 import { addBook } from "./BooksSlice"
 import { useNavigate } from "react-router-dom"
 import { v4 as uuidv4 } from 'uuid';
+import PageTitle from "../../layouts/PageTitle";
 
 const AddBook = () => {
    const [title,setTitle]= useState("")
@@ -19,6 +20,7 @@ const AddBook = () => {
    }
   return (
     <div className=" items-center text-white">
+    <PageTitle title={"Add Book"}/>
     <h2 className="text-blue-950 text-center font-semibold">Add Book</h2>
      <div className="bg-blue-600 ">
 
